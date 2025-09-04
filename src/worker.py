@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, './vendor')
+
+
 from fastapi import FastAPI, Request
 from workers import WorkerEntrypoint
 
